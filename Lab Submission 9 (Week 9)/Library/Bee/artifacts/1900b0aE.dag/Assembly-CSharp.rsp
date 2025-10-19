@@ -342,6 +342,7 @@
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Projectile.cs"
 "Assets/Scripts/RandomTarget.cs"
+"Assets/Scripts/ScoreManager.cs"
 "Assets/Scripts/Target.cs"
 -langversion:9.0
 /deterministic

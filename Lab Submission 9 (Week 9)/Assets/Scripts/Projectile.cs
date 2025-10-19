@@ -18,16 +18,19 @@ public class Projectile : MonoBehaviour
         if (collision.gameObject.tag == "BlackAndWhite")
         {
             Destroy(collision.gameObject);
+            ScoreManager.instance.Add100Points();
             gameObject.SetActive(false);
         }
         if (collision.gameObject.tag == "RedAndOrange")
         {
             Destroy(collision.gameObject);
+            ScoreManager.instance.Add300Points();
             gameObject.SetActive(false);
         }
         if (collision.gameObject.tag == "BlueAndYellow")
         {
             Destroy(collision.gameObject);
+            ScoreManager.instance.Add500Points();
             gameObject.SetActive(false);
         }
     }
