@@ -2,11 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletPool : MonoBehaviour
+public class ObjectPool : MonoBehaviour
 {
-    public GameObject bulletPrefab;
+    public GameObject prefab;
     private Queue<GameObject> pool = new Queue<GameObject>();
-    public Transform shootingPoint;
 
     public GameObject GetObject()
     {
@@ -17,7 +16,7 @@ public class BulletPool : MonoBehaviour
             return obj;
         }
 
-        return Instantiate(bulletPrefab, shootingPoint.position, transform.rotation);
+        return Instantiate(prefab);
     }
 
     public void ReturnObject(GameObject obj)

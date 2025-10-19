@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public BulletPool bulletPool;
+    public ObjectPool bulletPool;
+    public float bulletSpeed = 10f;
+    public GameObject shootPoint;
 
     private void Update()
     {
@@ -17,15 +19,15 @@ public class GameManager : MonoBehaviour
     void Shoot()
     {
         GameObject bullet = bulletPool.GetObject();
-        bullet.transform.position = transform.position;
+        bullet.transform.position = shootPoint.transform.position;
         bullet.transform.rotation = transform.rotation;
 
         StartCoroutine(DeactivateBullet(bullet));
     }
 
-    IEnumerator DeactivateBullet(GameObject bullet)
+    IEnumerator DeactivateBullet (GameObject bullet)
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
         bulletPool.ReturnObject(bullet);
     }
 }
