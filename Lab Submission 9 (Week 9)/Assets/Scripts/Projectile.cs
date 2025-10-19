@@ -12,4 +12,23 @@ public class Projectile : MonoBehaviour
     {
         transform.Translate(Vector2.up * moveSpeed * Time.deltaTime);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "BlackAndWhite")
+        {
+            Destroy(collision.gameObject);
+            gameObject.SetActive(false);
+        }
+        if (collision.gameObject.tag == "RedAndOrange")
+        {
+            Destroy(collision.gameObject);
+            gameObject.SetActive(false);
+        }
+        if (collision.gameObject.tag == "BlueAndYellow")
+        {
+            Destroy(collision.gameObject);
+            gameObject.SetActive(false);
+        }
+    }
 }

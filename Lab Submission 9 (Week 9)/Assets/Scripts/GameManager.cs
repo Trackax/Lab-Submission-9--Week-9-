@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,10 @@ public class GameManager : MonoBehaviour
     public ObjectPool bulletPool;
     public float bulletSpeed = 10f;
     public GameObject shootPoint;
+
+    private void Start()
+    {
+    }
 
     private void Update()
     {

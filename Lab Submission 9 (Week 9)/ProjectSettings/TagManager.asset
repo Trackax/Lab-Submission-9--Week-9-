@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Barrier
+  - SpawnPoint
+  - Bullet
+  - BlackAndWhite
+  - RedAndOrange
+  - BlueAndYellow
   layers:
   - Default
   - TransparentFX
