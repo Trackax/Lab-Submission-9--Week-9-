@@ -11,7 +11,7 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager instance;
     public TMP_Text scoreText;
 
-    int score = 0;
+    public int score = 0;
 
     private void Awake()
     {
@@ -38,6 +38,18 @@ public class ScoreManager : MonoBehaviour
     public void Add500Points()
     {
         score += 500;
+        scoreText.text = "SCORE: " + score.ToString();
+    }
+
+    public void SaveScore()
+    {
+        SaveSystem.SaveScore(this);
+    }
+
+    public void LoadScore()
+    {
+        ScoreData scoreData = SaveSystem.LoadScore();
+        score = scoreData.highScore;
         scoreText.text = "SCORE: " + score.ToString();
     }
 }

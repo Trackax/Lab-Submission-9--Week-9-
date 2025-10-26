@@ -344,8 +344,12 @@
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Projectile.cs"
 "Assets/Scripts/RandomTarget.cs"
+"Assets/Scripts/Save/EnemyData.cs"
+"Assets/Scripts/Save/MyCustomScript.cs"
 "Assets/Scripts/Save/PlayerData.cs"
+"Assets/Scripts/Save/SaveManager.cs"
 "Assets/Scripts/Save/SaveSystem.cs"
+"Assets/Scripts/Save/ScoreData.cs"
 "Assets/Scripts/ScoreManager.cs"
 "Assets/Scripts/Target.cs"
 -langversion:9.0

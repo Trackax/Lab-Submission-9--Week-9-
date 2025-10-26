@@ -365,6 +365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  prefabID: {fileID: 6413580453500342522}
 --- !u!1 &7824986280487851980
 GameObject:
   m_ObjectHideFlags: 0

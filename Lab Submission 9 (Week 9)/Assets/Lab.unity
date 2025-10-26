@@ -285,6 +285,54 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 433283357}
+        m_TargetAssemblyTypeName: ScoreManager, Assembly-CSharp
+        m_MethodName: LoadScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1863516001}
+        m_TargetAssemblyTypeName: RandomTarget, Assembly-CSharp
+        m_MethodName: LoadGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1902746654}
+        m_TargetAssemblyTypeName: RandomTarget, Assembly-CSharp
+        m_MethodName: LoadGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1360318851}
+        m_TargetAssemblyTypeName: RandomTarget, Assembly-CSharp
+        m_MethodName: LoadGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &53161501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -521,37 +569,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &344464842
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 344464844}
-  m_Layer: 0
-  m_Name: SaveManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &344464844
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 344464842}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.4063215, y: 2.7611353, z: -11.20272}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &433283356
 GameObject:
   m_ObjectHideFlags: 0
@@ -585,6 +602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1217783803}
+  score: 0
 --- !u!114 &433283358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1143,6 +1161,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3964404537856450477, guid: 4e6af3d4320c0cc488e083eb4a2dc193, type: 3}
   m_PrefabInstance: {fileID: 72317786}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1360318851 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1152880980982836106, guid: 4e6af3d4320c0cc488e083eb4a2dc193, type: 3}
+  m_PrefabInstance: {fileID: 72317786}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c7425865b7f1a840ae20a0cede5869b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1370516608
 GameObject:
   m_ObjectHideFlags: 0
@@ -1681,6 +1710,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1827374801}
+  - component: {fileID: 1827374802}
   m_Layer: 0
   m_Name: SpawnPoints
   m_TagString: Untagged
@@ -1706,6 +1736,29 @@ Transform:
   - {fileID: 1360318850}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1827374802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827374800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0381a12359470744bbb11f93009b964e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1863516001 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1152880980982836106, guid: 4e6af3d4320c0cc488e083eb4a2dc193, type: 3}
+  m_PrefabInstance: {fileID: 8992530168164310798}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c7425865b7f1a840ae20a0cede5869b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1882080869
 GameObject:
   m_ObjectHideFlags: 0
@@ -1845,6 +1898,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3964404537856450477, guid: 4e6af3d4320c0cc488e083eb4a2dc193, type: 3}
   m_PrefabInstance: {fileID: 70404061}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1902746654 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1152880980982836106, guid: 4e6af3d4320c0cc488e083eb4a2dc193, type: 3}
+  m_PrefabInstance: {fileID: 70404061}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c7425865b7f1a840ae20a0cede5869b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1907173822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1988,6 +2052,54 @@ MonoBehaviour:
       - m_Target: {fileID: 1723193957}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
         m_MethodName: SavePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 433283357}
+        m_TargetAssemblyTypeName: ScoreManager, Assembly-CSharp
+        m_MethodName: SaveScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1863516001}
+        m_TargetAssemblyTypeName: RandomTarget, Assembly-CSharp
+        m_MethodName: SaveGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1902746654}
+        m_TargetAssemblyTypeName: RandomTarget, Assembly-CSharp
+        m_MethodName: SaveGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1360318851}
+        m_TargetAssemblyTypeName: RandomTarget, Assembly-CSharp
+        m_MethodName: SaveGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2154,4 +2266,3 @@ SceneRoots:
   - {fileID: 1827374801}
   - {fileID: 433283361}
   - {fileID: 22304156}
-  - {fileID: 344464844}
