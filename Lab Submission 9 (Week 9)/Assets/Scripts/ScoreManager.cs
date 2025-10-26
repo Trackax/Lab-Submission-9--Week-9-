@@ -5,14 +5,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+
 public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager instance;
     public TMP_Text scoreText;
-    public TMP_Text highscoreText;
 
     int score = 0;
-    int highscore = 0;
 
     private void Awake()
     {

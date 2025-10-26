@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-9--Week-9-\\Lab Submission 9 (Week 9)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2FB09B6-FDA0-FB04-D6E3-436448FB1114}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\lab-submission-9--week-9-\\lab submission 9 (week 9)\\assets\\scripts\\save\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2FB09B6-FDA0-FB04-D6E3-436448FB1114}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\save\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2FB09B6-FDA0-FB04-D6E3-436448FB1114}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\lab-submission-9--week-9-\\lab submission 9 (week 9)\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2FB09B6-FDA0-FB04-D6E3-436448FB1114}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SaveSystem.cs",
+              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-9--Week-9-\\Lab Submission 9 (Week 9)\\Assets\\Scripts\\Save\\SaveSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Save\\SaveSystem.cs",
+              "ToolTip": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-9--Week-9-\\Lab Submission 9 (Week 9)\\Assets\\Scripts\\Save\\SaveSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Save\\SaveSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T20:56:20.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-9--Week-9-\\Lab Submission 9 (Week 9)\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-9--Week-9-\\Lab Submission 9 (Week 9)\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T20:53:14.828Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
